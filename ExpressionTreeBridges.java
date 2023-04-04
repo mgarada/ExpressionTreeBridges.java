@@ -1,8 +1,7 @@
 /**
- * CMSC 256
- * Project5.java
+ * ExpressionTreeBridges.java
  * This project is implements an arithmetic expression tree using bridges.base.BinTreeElement<E> as the node.
- * [Garada], [Mohammad]
+ * Mohammad Garada 
  */
 
 
@@ -14,7 +13,7 @@ import bridges.base.BinTreeElement;
 import java.util.Stack;
 
 
-public class Project5 {
+public class ExpressionTreeBridges {
 
 
     public static void main(String[] args) {
