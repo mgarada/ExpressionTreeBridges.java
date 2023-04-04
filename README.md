@@ -11,7 +11,7 @@ To run this program, you will need to have the Bridges API installed.
 To use the program, simply create a new instance of the 'ExpressionTreeBridges' class and call the 'buildParseTree()' and 'evaluate()' methods with your mathematical expression as a parameter. You can also customize the Bridges visualization by changing the title and description of the visualization.
  
   Here are some examples:
-  ```String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
+```String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
 BinTreeElement<String> parseTree1 = buildParseTree(ex1);
 double answer1 = evaluate(parseTree1);
 System.out.println(answer1);
