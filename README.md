@@ -12,7 +12,7 @@ To use the program, simply create a new instance of the 'ExpressionTreeBridges' 
  
   Here are some examples:
 ```String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
-  String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
+ String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
 BinTreeElement<String> parseTree1 = buildParseTree(ex1);
 double answer1 = evaluate(parseTree1);
 System.out.println(answer1);
