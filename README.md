@@ -12,7 +12,7 @@ To use the program, simply create a new instance of the 'ExpressionTreeBridges' 
  
   Here are some examples:
 ```String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
- String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
+String ex1 = "( ( 7 + 3 ) * ( 5 - 2 ) )";
 BinTreeElement<String> parseTree1 = buildParseTree(ex1);
 double answer1 = evaluate(parseTree1);
 System.out.println(answer1);
@@ -20,7 +20,7 @@ System.out.println(getEquation(parseTree1));
 ```
   
   ```
-  String ex2 = "( ( 10 + 5 ) * 3 )";
+String ex2 = "( ( 10 + 5 ) * 3 )";
 BinTreeElement<String> parseTree2 = buildParseTree(ex2);
 double answer2 = evaluate(parseTree2);
 System.out.println(answer2);
@@ -28,7 +28,7 @@ System.out.println(getEquation(parseTree2));
 ```
   
   ```
-  String ex3 = "( ( ( ( ( 2 * 12 ) / 6 ) + 3 ) - 17 ) + ( 2 * 0 ) )";
+String ex3 = "( ( ( ( ( 2 * 12 ) / 6 ) + 3 ) - 17 ) + ( 2 * 0 ) )";
 BinTreeElement<String> parseTree3 = buildParseTree(ex3);
 double answer3 = evaluate(parseTree3);
 System.out.println(answer3);
@@ -36,7 +36,7 @@ System.out.println(getEquation(parseTree3));
 ```
   
   ```
-  String ex4 = "( 3 + ( 4 * 5 ) )";
+String ex4 = "( 3 + ( 4 * 5 ) )";
 BinTreeElement<String> parseTree4 = buildParseTree(ex4);
 double answer4 = evaluate(parseTree4);
 System.out.println(answer4);
