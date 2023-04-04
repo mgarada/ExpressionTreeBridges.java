@@ -42,3 +42,6 @@ double answer4 = evaluate(parseTree4);
 System.out.println(answer4);
 System.out.println(getEquation(parseTree4));
 ```
+## Credits 
+  This project was created by Mohammad Garada
+
